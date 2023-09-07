@@ -1,0 +1,29 @@
+#mainPopup {
+		padding: 10px;
+		height: 500px;
+		width: 325px;
+		font-family: Helvetica, Ubuntu, Arial, sans-serif;
+		
+		
+	}
+	.inputArea{
+		width: 100px;
+		text-align: center;
+		display: inline-flex;
+		padding: 5px;
+	}
+	.textStyle{
+		font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	}
+	#copyPlan{
+		padding: 10px;
+		text-align: center;
+
+	}
+	h1 {
+		font-size: 2em;
+	}
+	.priceTable{
+		padding: 15px;
+	}
+	.tg .tg-0lax{text-align:center;vertical-align:top}

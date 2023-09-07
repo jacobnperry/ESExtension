@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Drip",
+  "description": "Add the reading time to Chrome Extension documentation articles",
+  "version": "1.0",
+  "default_locale": "en",
+  "content_security_policy": {
+  "extension_pages": "default-src 'self'; script-src 'self'; object-src 'self'"
+},
+  "icons": {
+  },
+  "action":{
+    "default_popup":"index.html"
+  },
+   "content_scripts": [
+    {
+      "matches": [
+        "https://www.drip.com/*"
+      ],
+      "js": [
+        "script.js"
+      ]
+    }
+  ]
+}
